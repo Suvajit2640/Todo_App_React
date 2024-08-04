@@ -1,0 +1,115 @@
+/* Heading */
+.heading {
+  margin-bottom: 20px;
+  font-size: 3em;
+  color: white;
+}
+
+.heading > span {
+  color: rgb(255, 0, 0);
+}
+
+/* Container for input and button */
+.m-p {
+  margin: 20px 30px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+/* Button */
+.btn {
+  min-width: 90px;
+}
+
+/* Input fields */
+input {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #e6f7ff; /* Light pastel blue */
+  color: #333333;
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid black;
+}
+
+/* Input container */
+.input {
+  font-size: 1.3rem;
+  padding: 10px;
+  outline: none;
+  border-radius: 20px;
+  color: beige;
+}
+
+/* ToDo items container */
+.item_container {
+  text-align: left;
+}
+
+/* Message when there are no items */
+.nullitem {
+  text-align: center;
+  font-size: 2rem;
+  max-width: 100%;
+  color: white;
+}
+
+/* Root container */
+#root {
+  background-color: rgb(33, 129, 214);
+  min-height: 100vh;
+  margin: 0px;
+  padding: 10px;
+  background: linear-gradient(180deg, rgb(26, 83, 255), rgb(154, 26, 252), rgb(255, 0, 183));
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Main container */
+.container {
+  border: 2px solid black;
+  background-color: rgba(21, 86, 235, 0.208);
+  border-radius: 10px;
+  width: 60vw;
+  height: auto;
+  padding: 20px;
+}
+
+/* ToDo items */
+.todo-item {
+  background-color: #e0f7fa;
+  color: darkblue;
+  border: 2px solid #80deea;
+  font-size: larger;
+  font-weight: bolder;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Button for deleting items */
+.todo-item .btn {
+  background-color: #ff5252;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.todo-item .btn:hover {
+  background-color: #e64a19;
+}
